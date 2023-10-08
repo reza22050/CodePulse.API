@@ -40,7 +40,7 @@ namespace CodePulse.API.Controllers
                         Token = jwtToken
                     };
 
-                    return Ok();
+                    return Ok(response);
                 }
             }
 
